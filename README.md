@@ -10,7 +10,7 @@ Welcome to my AI Developer Study Notes repository! This is a personal collection
 - [Getting Started](#getting-started)
 
 ## About This Repository
-
+        
 This repository serves as a study aid for my learning in the IBM AI Developer Professional Certificate. It contains notes, key concepts, and any relevant code snippets or examples that I find useful.
 
 ## Course Modules
