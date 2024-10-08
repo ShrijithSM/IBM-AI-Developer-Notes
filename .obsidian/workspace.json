@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Evolution of AI.md",
+                "file": "Gen AI: Prompt Engineering/Best Practices.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Evolution of AI.md",
+                "file": "Gen AI: Prompt Engineering/Best Practices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Evolution of AI.md",
+                "file": "Gen AI: Prompt Engineering/Best Practices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Evolution of AI.md"
+                "file": "Gen AI: Prompt Engineering/Best Practices.md"
               }
             }
           }
