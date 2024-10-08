@@ -30,9 +30,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "94ebc6aad617ed6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f08839b03c51c755",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduction to Artificial Intelligence (AI)/Different Types of AI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c9bdfbdec402503c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Evolution of AI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -98,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Artificial Intelligence (AI)/Artificial Intelligence VS Augmented Intelligence.md",
+                "file": "Evolution of AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Artificial Intelligence (AI)/Artificial Intelligence VS Augmented Intelligence.md",
+                "file": "Evolution of AI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Artificial Intelligence (AI)/Artificial Intelligence VS Augmented Intelligence.md"
+                "file": "Evolution of AI.md"
               }
             }
           }
@@ -159,9 +195,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "351d07551a5842a6",
+  "active": "c9bdfbdec402503c",
   "lastOpenFiles": [
-    "Introduction to Artificial Intelligence (AI)/Introducing AI.md",
-    "Introduction to Artificial Intelligence (AI)/Artificial Intelligence VS Augmented Intelligence.md"
+    "Introduction to Artificial Intelligence (AI)/Different Types of AI.md",
+    "Evolution of AI.md",
+    "README.md",
+    "Introduction to Artificial Intelligence (AI)/Introducing Generative AI and its Use Cases.md",
+    "Introduction to Artificial Intelligence (AI)/Artificial Intelligence VS Augmented Intelligence.md",
+    "Introduction to Artificial Intelligence (AI)/Introducing AI.md"
   ]
 }
