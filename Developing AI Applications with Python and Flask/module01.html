@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="renderer" content="webkit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="keywords" content="Editor.md,editor,Markdown Editor,Markdown" />
+    <meta name="description" content="Skills Network Author IDE" />
+    <title>Skills Network Editor</title>
+    <link rel="stylesheet" href="/editormd/examples/css/style.css?version=3.4.0" />
+    <link rel="stylesheet" href="/editormd/css/editormd.css?version=3.4.0" />
+    <link rel="stylesheet" href="/public/css/custom.css?version=3.4.0" />
+    <link rel="stylesheet" href="/public/css/custom_popover.css?version=3.4.0" />
+    <link rel="shortcut icon" href="/public/images/SN_favicon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="/public/js/comms.js?version=3.4.0"></script>
+    <script src="//unpkg.com/alpinejs"></script>
+</head>
+
+<body>
+    <div id="layout">
+    <div id="test-editormd">
+        <textarea style="display:none;"># Cheatsheet: Python Coding Practices and Packaging Concepts
+
+&lt;img src&#x3D;&quot;https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-PY0224EN-Coursera/images/IDSN-logo.png&quot; width&#x3D;&quot;200/&quot;&gt;
+
+##
+
+**Estimated time needed:** 5 minutes
+
+##
+
+| Package/Method | Description | Code Example |
+|--------|--------|--------|
+| **Packaging**  |To create a package, the folder structure is as follows:&lt;/p&gt; &lt;ol&gt;&lt;li&gt; &lt;b&gt;Project folder&lt;/b&gt; &amp;#8594; &lt;b&gt;Package name&lt;/b&gt; &amp;#8594; &lt;b&gt;__init__.py&lt;/b&gt;, &lt;b&gt;module_1.py&lt;/b&gt;, &lt;b&gt;module_2.py&lt;/b&gt;, and so on.&lt;/li&gt; &lt;/p&gt;&lt;li&gt;In the &lt;b&gt;__init__.py&lt;/b&gt; file, add code to reference the modules in the package.&lt;/li&gt; | **module1.py** &lt;/p&gt; &lt;p style&#x3D;&quot;font-family: Courier new&quot;&gt;def function_1(arg):&lt;/p&gt; &lt;p style&#x3D;&quot;font-family: Courier new&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return &lt;operation output&gt; &lt;/p&gt; &lt;b&gt;__init__.py&lt;/b&gt;:&lt;/p&gt;&lt;p style&#x3D;&quot;font-family: Courier new&quot;&gt;from . import function_1
+| **Python Style Guide**  | &lt;ul&gt;&lt;li&gt;Four spaces for indentation&lt;/li&gt;&lt;/p&gt;&lt;li&gt;Use blank lines to separate functions and classes&lt;/li&gt;&lt;/p&gt;&lt;li&gt;Use spaces around operators and after commas&lt;/li&gt;&lt;/p&gt; &lt;li&gt;Add larger blocks of code inside functions&lt;/li&gt; &lt;/p&gt;&lt;li&gt;Name functions and files using lowercase with underscores&lt;/li&gt; &lt;/p&gt;&lt;li&gt;Name classes using CamelCase&lt;/li&gt; &lt;/p&gt;&lt;li&gt;Name constants in capital letters with underscores separating words&lt;/li&gt;&lt;/ul&gt; | &lt;p style&#x3D;&quot;font-family: Courier new&quot;&gt;def function_1(a, b): &lt;/p&gt;  &lt;p style&#x3D;&quot;font-family: Courier new&quot;&gt;  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; if a &gt; b: &lt;/p&gt; &lt;p style&#x3D;&quot;font-family: Courier new&quot;&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; c &#x3D; c + 5 &lt;/p&gt;&lt;p style&#x3D;&quot;font-family: Courier new&quot;&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;else: &lt;/p&gt;&lt;p style&#x3D;&quot;font-family: Courier new&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;c &#x3D; c - 3 &lt;/p&gt;     &lt;p style&#x3D;&quot;font-family: Courier new&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return c &lt;/p&gt; ...&lt;p style&#x3D;&quot;font-family: Courier new&quot;&gt; c &#x3D; function_1(a, b) &lt;/p&gt; &lt;/p&gt;&lt;b&gt;Constant Definition example&lt;/b&gt; &lt;/p&gt;&lt;p style&#x3D;&quot;font-family: Courier new&quot;&gt; MAX_FILE_UPLOAD_SIZE &lt;/p&gt;
+| **Static Code Analysis**  | Use Static code analysis method to evaluate your code against a predefined style and standard without executing the code. &lt;/p&gt;For example, use Pylint to perform static code analysis. | **Shell code:**&lt;/p&gt; &lt;p style&#x3D;&quot;font-family: Courier new&quot;&gt;pylint code.py
+| **Unit Testing**  | Unit testing is a method to validate if units of code are operating as designed.&lt;/p&gt; During code development, each unit is tested. The unit is tested in a continuous integration/continuous delivery test server environment.&lt;/p&gt;You can use different test functions to build unit tests and review the unit test output to determine if the test passed or failed.&lt;/p&gt;  | &lt;p style&#x3D;&quot;font-family: Courier new&quot;&gt;import unittest&lt;/p&gt; &lt;p style&#x3D;&quot;font-family: Courier new&quot;&gt;from mypackage.mymodule import my_function &lt;/p&gt; &lt;p style&#x3D;&quot;font-family: Courier new&quot;&gt;class TestMyFunction(unittest.TestCase): &lt;/p&gt; &lt;/p&gt;&lt;p style&#x3D;&quot;font-family: Courier new&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;def test_my_function(self): &lt;/p&gt;&lt;p style&#x3D;&quot;font-family: Courier new&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;result &#x3D; my_function(&lt;args&gt;) &lt;/p&gt;&lt;p style&#x3D;&quot;font-family: Courier new&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;self.asserEqual(result, &lt;response&gt;) &lt;/p&gt; &lt;p style&#x3D;&quot;font-family: Courier new&quot;&gt;unittest.main()
+
+
+## Author(s)
+Abhishek Gagneja
+
+### Other Contributor(s) 
+Andrew Pfeiffer, Sina Nazeri
+
+&lt;!--## Changelog
+| Date | Version | Changed by | Change Description |
+|------|--------|--------|---------|
+| 2023-07-06 | 0.1 | Abhishek Gagneja | Initial version created |
+| 2023-07-10 | 0.2 | Andrew Pfeiffer | Documented in AWB |--!&gt;
+
+## &lt;h3 align&#x3D;&quot;center&quot;&gt; &amp;#169; IBM Corporation 2023. All rights reserved. &lt;h3/&gt;
+
+</textarea>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/he@1.2.0/he.min.js"></script>
+<script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.6/iframeResizer.contentWindow.min.js"></script>
+
+<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+<link rel="stylesheet" href="public/css/custom_plyr.css?version=3.4.0" />
+
+<script src="editormd/examples/js/jquery.min.js"></script>
+<script src="editormd/editormd.js?version=3.4.0"></script>
+
+<script src="editormd/languages/en.js"></script>
+
+<script src="public/js/common.js?version=3.4.0"></script>
+<script src="public/js/render.js?version=3.4.0"></script>
+
+<script type="text/javascript">
+
+
+    var authorEditor = $(function () {
+        let metadata = he.decode('{&quot;markdown-version&quot;:&quot;v1&quot;,&quot;tool-type&quot;:&quot;instructional-lab&quot;,&quot;branch&quot;:&quot;lab-7643-instruction&quot;,&quot;version-history-start-date&quot;:&quot;2023-07-16T06:33:24Z&quot;,&quot;audio-timestamp-of-request-to-generate-wav&quot;:&quot;2024-10-29T19:23:32Z&quot;,&quot;audio-file-url&quot;:&quot;https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-PY0224EN-Coursera/labs/reading/m1/Cheatsheet.md.wav&quot;,&quot;locales-url&quot;:&quot;https://cf-courses-data.static.labs.skills.network/5A174e6Atdk4pOpKlcc6XQ/CheatSheet-Python-Coding-Practices-and-Packaging-v1-locales.json&quot;}')
+        injectMetadata(metadata)
+
+        let token = findGetParameter("token");
+
+        let LABS_BASE_URL = 'https://labs.cognitiveclass.ai';
+        let asset_library_prefix_url = 'https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-PY0224EN-Coursera';
+        let tool_type = "instructional-lab";
+        let filename = `labs/reading/m1/Cheatsheet.md`;
+        let audioFileUrl = `https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-PY0224EN-Coursera/labs/reading/m1/Cheatsheet.md.wav`
+        let localesUrl = `https://cf-courses-data.static.labs.skills.network/5A174e6Atdk4pOpKlcc6XQ/CheatSheet-Python-Coding-Practices-and-Packaging-v1-locales.json`;
+        let currentTheme = localStorage.getItem("theme") || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "default");
+
+        return authorEditor = editormd("test-editormd", "3.4.0", {
+            tool_type,
+            filename,
+            audioFileUrl,
+            localesUrl,
+            width: "100%",
+            //height: "100%",
+            autoHeight: true,
+            // mode: 'markdown',
+            theme: currentTheme,
+            previewTheme: currentTheme,
+            editorTheme: currentTheme === "dark" ? "pastel-on-dark" : "default",
+            readOnly: true,
+            pluginPath: 'plugins/',
+            syncScrolling: false,
+            htmlDecode: 'img',
+            path: 'editormd/lib/',
+            watch: false,
+            // markdown,
+            toolbar: false,
+            atLink: false,
+            toc: true,
+            tocm: true,
+            tocDropdown: false,
+            tocTitle: "Table of Contents For your lab!",
+            tex: true,
+            flowChart: true,
+            sequenceDiagram: true,
+            codeFold: true, // Doesn't do anything?
+            taskList: true,
+            emoji: true,
+            saveMarkdownToTextarea: true,
+
+            onresize: function () {
+                $("html,body").css("overflow", "hidden");
+
+                this.preview.css({
+                    width: $(window).width(),
+                    height: $(window).height()
+                })
+
+                adjustProgressBarWidth()
+            },
+            fixCodeBlocks: function () {
+                adjustCodeBlocks(this);
+            },
+            onload: function () {
+                $("[type=\"file\"]").bind("change", function () {
+                    alert($(this).val());
+                    authorEditor.cm.replaceSelection($(this).val());
+                    console.log($(this).val(), authorEditor);
+                });
+
+                this.fullscreen();
+                this.previewing();
+
+                setPreviewWatchToolbar(this);
+
+                if (tool_type != "instructional-lab") {
+                    fixCustomPlugins(this, 'https://reward.skills.network/claim');
+                }
+                else {
+                    if(audioFileUrl && localStorage.getItem("selectedLanguageCode") == "EN") {
+                        addAudioWidget(this, audioFileUrl);
+                    }
+                }
+
+                setAssetLibraryPrefixUrl(asset_library_prefix_url);
+                //comms with UI
+                setParentUrl(LABS_BASE_URL);
+                establishCommsWithUI(this);
+                //let the UI know that the author-ide has loaded
+                requestToUI({ type: "frame_loaded" });
+            }
+        });
+    });
+</script>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+
+</html>
