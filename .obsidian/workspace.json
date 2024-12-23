@@ -8,63 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cdb8d3d79f24024c",
+            "id": "e6f0cc49da5f80e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Artificial Intelligence (AI)/Introducing AI.md",
+                "file": "Completion of Courses.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "351d07551a5842a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduction to Artificial Intelligence (AI)/Artificial Intelligence VS Augmented Intelligence.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94ebc6aad617ed6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f08839b03c51c755",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduction to Artificial Intelligence (AI)/Different Types of AI.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c9bdfbdec402503c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
+              },
+              "icon": "lucide-file",
+              "title": "Completion of Courses"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -99,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -107,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -130,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Completion of Courses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Completion of Courses"
             }
           },
           {
@@ -146,9 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Completion of Courses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Completion of Courses"
             }
           },
           {
@@ -159,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -167,7 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Completion of Courses.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Completion of Courses"
             }
           }
         ]
@@ -187,11 +162,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c9bdfbdec402503c",
+  "active": "e6f0cc49da5f80e3",
   "lastOpenFiles": [
+    "README.md",
+    "Completion of Courses.md",
+    "IBM Building Generative AI-Powered Applications with Python/module01/foundation model.md",
     "Introduction to Artificial Intelligence (AI)/Different Types of AI.md",
     "Evolution of AI.md",
-    "README.md",
     "Introduction to Artificial Intelligence (AI)/Introducing Generative AI and its Use Cases.md",
     "Introduction to Artificial Intelligence (AI)/Artificial Intelligence VS Augmented Intelligence.md",
     "Introduction to Artificial Intelligence (AI)/Introducing AI.md"

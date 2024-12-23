@@ -1,0 +1,11 @@
+- [x] Introduction to Software Engineering
+- [x] Introduction to Artificial Intelligence (AI)
+- [x] Generative AI: Introduction and Applications
+- [x] Generative AI: Prompt Engineering Basics
+- [ ] Introduction to HTML, CSS, & JavaScript
+- [x] Python for Data Science, AI & Development
+- [x] Developing AI Applications with Python and Flask
+- [x] Building Generative AI-Powered Applications with Python
+- [x] Generative AI: Elevate your Software Development Career
+- [ ] Software Developer Career Guide and Interview Preparation
+
