@@ -7,5 +7,5 @@
 - [x] Developing AI Applications with Python and Flask
 - [x] Building Generative AI-Powered Applications with Python
 - [x] Generative AI: Elevate your Software Development Career
-- [ ] Software Developer Career Guide and Interview Preparation
+- [x] Software Developer Career Guide and Interview Preparation
 
